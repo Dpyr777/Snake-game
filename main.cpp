@@ -1,13 +1,14 @@
 #include <iostream>
+#include <string>
+#include <ncurses.h>
+#include "menu.hpp"
+
+
+
 
 int main()
 {
-
-	std::cout << "Hello World!!!" << std::enld;
-	std::cout << "Hi" << std::endl;
-	int a = 5;
-	std::cout << a << std::endl;
-
+	Menu();
 
 	return 0;
 }
